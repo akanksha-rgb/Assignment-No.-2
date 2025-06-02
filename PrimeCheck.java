@@ -5,14 +5,10 @@ import java.util.Scanner;
 public class PrimeCheck {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
-        // Prompt the user to enter a number
         System.out.print("Enter a number: ");
         int number = scanner.nextInt();
 
         boolean isPrime = true;
-
-        // Prime check logic
         if (number <= 1) {
             isPrime = false; // 0 and 1 are not prime
         } else {
@@ -23,8 +19,6 @@ public class PrimeCheck {
                 }
             }
         }
-
-        // Output result
         if (isPrime) {
             System.out.println(number + " is a prime number.");
         } else {
