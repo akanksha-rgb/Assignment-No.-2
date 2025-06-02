@@ -10,8 +10,6 @@ public class PalindromeNumbers {
             }
         }
     }
-
-    // Helper method to check palindrome
     public static boolean isPalindrome(int num) {
         int original = num;
         int reverse = 0;
