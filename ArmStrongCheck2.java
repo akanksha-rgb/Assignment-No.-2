@@ -11,11 +11,11 @@ public class ArmStrongCheck2 {
 
         int originalNumber = number;
         int sum = 0;
-        int digits = String.valueOf(number).length();  // Number of digits
+        int digits = String.valueOf(number).length();  
 
         while (number != 0) {
             int digit = number % 10;
-            sum += Math.pow(digit, digits);  // Raise digit to the power of digits
+            sum += Math.pow(digit, digits);  
             number /= 10;
         }
 
